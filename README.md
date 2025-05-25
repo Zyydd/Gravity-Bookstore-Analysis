@@ -87,7 +87,7 @@ You can find the database
 ### ERD
 
 We created this database in SQL Server Management Studio (SSMS). By correctly connecting the tables, we generated the following Entity-Relationship Diagram (ERD): 
-![Alt text](Gravity-Bookstore-Analysis/OLTP%20ERD/1.ERD.png)
+![Alt text](OLTP%20ERD/ERD.png)
 
 ## Data Warehouse
 ### Data Modeling:
