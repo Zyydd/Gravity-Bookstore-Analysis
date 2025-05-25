@@ -87,7 +87,7 @@ You can find the database
 ### ERD
 
 We created this database in SQL Server Management Studio (SSMS). By correctly connecting the tables, we generated the following Entity-Relationship Diagram (ERD): 
-![ERD Schema](https://github.com/KhalidEltaweel/Gravity-Bookstore-Project/blob/main/ERD/OLTP%20ERD/SSMS%20Screenshot.png)
+![Alt text](OLTP20%ERD\ERD.png)
 
 For a clearer view of the ERD diagram, you can download the attached `.drawio` file and open it on [https://app.diagrams.net](https://app.diagrams.net).
 
@@ -275,36 +275,7 @@ Created Using SQL SERVER QUERIES
 
 
 --------------------------------------------------------------------------------
-# SSAS Tabular Model for Data Warehouse
-In this project, I used SQL Server Analysis Services (SSAS) in Tabular Mode to build a semantic model for the data warehouse. Below are the key steps involved:
 
-1. **Data Model Structure: :** The data warehouse consists of a star schema with fact and dimension tables. The central fact table FactBookSales stores transactional data, while the dimension tables (DimBooks, DimCust, DimDate, DimShipping, DimStatus) provide descriptive information for different entities.
-
-2. **Key Measures Created: :** Several important measures were developed using DAX (Data Analysis Expressions) to provide insights into the data:
-
-- `No. of Books Sold`
-- `No. of Customers`
-- `No. of Orders`
-- `No. of Publishers`
-- `Total Due`
-- `Total Freight`
-- `Total Tax`
-- `Total Subtotal`
-- `Total Due by No. of Orders`
-
-Below is an image showing the measures created in the Tabular Model for reference:
-
-![DWH SSAS](https://github.com/KhalidEltaweel/Gravity-Bookstore-Project/blob/main/SSAS/Measures%20in%20fact%20table.PNG)
-![DWH SSAS](https://github.com/KhalidEltaweel/Gravity-Bookstore-Project/blob/main/SSAS/DWH%20Model.jpeg)
-![DWH SSAS](https://github.com/KhalidEltaweel/Gravity-Bookstore-Project/blob/main/SSAS/Model%20With%20Measure.jpeg)
-
-3. **Data Sources::** The data source used for this SSAS tabular model is an SQL Server database connected to the Gravity_Books_DWH dataset. 
-
-4. **Visualization::** The Tabular Model Explorer showcases the structure of the model, relationships between tables, and measures used to provide key insights. 
-
-By leveraging SSAS Tabular, I was able to create a fast, scalable model that enables multidimensional analysis and reporting. 
-
---------------------------------------------------------------------------------
 # Book Sales Analysis Using Power BI
 
 ## Overview
