@@ -297,30 +297,17 @@ The data used in this project is sourced from SSAS Tabular Model For Gravity_Boo
 Below are the images of the Power BI reports created for this project:
 
 ### Sales Performance Overview
-![Sales Performance Overview](https://github.com/KhalidEltaweel/Gravity-Bookstore-Project/blob/main/Reports%26Dashboard/Sales%20Performance%20Overview.PNG)
+![Alt text](Report-Dashboard/Sales%20Dashboard.png)
 
 ### Books Analysis
-![Books Analysis](https://github.com/KhalidEltaweel/Gravity-Bookstore-Project/blob/main/Reports%26Dashboard/Books%20Analysis.PNG)
-
-### Publisher Analysis
-![Publisher Analysis](https://github.com/KhalidEltaweel/Gravity-Bookstore-Project/blob/main/Reports%26Dashboard/Publisher%20Analysis.PNG)
+![Alt text](Report-Dashboard/Books%20Dashboard.png)
 
 ### Customer Segmentation Overview
-![Customer Segmentation Overview](https://github.com/KhalidEltaweel/Gravity-Bookstore-Project/blob/main/Reports%26Dashboard/Customer%20Segmentation%20Overview.PNG)
+![Alt text](Report-Dashboard/Customer%20Dashboard.png)
+
 
 ## Visualizations
 - **Sales Performance**: Line graphs showing sales trends over time.
 - **Customer Segmentation**: Pie and graphs charts showing the distribution of customers by region.
-- **Publisher Analysis**: Bar charts comparing the performance of different publishers.
 - **Advanced Metrics**: Dashboards incorporating DAX calculations and time intelligence functions from the SSAS Tabular Model.
 
-## How to Use
-To replicate this analysis, follow these steps:
-1. Clone the repository.
-2. Install the necessary dependencies.
-3. Run the data processing scripts.
-4. Deploy the SSAS Tabular Model using SQL Server Data Tools (SSDT).
-5. Open the Power BI file and connect it to the SSAS Tabular Model to view the visualizations.
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
